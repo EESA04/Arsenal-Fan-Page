@@ -1,0 +1,28 @@
+body {
+  background-color: grey;
+  font-family: arial;
+}
+h1 {
+  color: red;
+  font-family: arial;
+  
+}
+p {
+  color: red;
+  font-family: arial;
+}
+h1 .thick {
+  font-weight: bold;
+  font-family: arial;
+}
+title .thick {
+	font-weight: bold;
+	color: red;
+	font-family: arial;
+}
+q {
+	font-family: rockwell;
+}
+div {
+	font-weight: bold;
+}

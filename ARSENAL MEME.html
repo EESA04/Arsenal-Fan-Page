@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<a href="index.html"><img src="badge.png"></a>
+</br>
+</br>
+<body>
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "pic_bulboff.jfif"
+  } else {
+    pic = "pic_bulbon.jfif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="pic_bulboff.jfif">
+
+<p>
+<button type="button" onclick="light(1)">Good</button>
+<button type="button" onclick="light(0)">Trash</button>
+</p>
+
+</body>
+</html>
